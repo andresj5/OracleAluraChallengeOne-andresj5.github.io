@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura Challenge One</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    <header>
+        <img src="imagenes/Vector.png" alt="Logo de Alura">
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/andresdp5"><img src="imagenes/linkedin.png"></a></li>
+                <li><a href="https://www.instagram.com/andresj5/"><img src="imagenes/instagram.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="texto-entrada">
+            <textarea class="texto-entrada" cols="60" rows="8" placeholder="Ingresa el texto aqui"></textarea>
+
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncriptar()">Encriptar</button> 
+                <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>    
+            </div>
+
+        </section>
+
+        <section class="mensaje-salida">
+            <textarea class="mensaje" cols="30" rows="9"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

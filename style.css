@@ -1,0 +1,15 @@
+nav{
+    position: absolute;
+    top: 0px;
+    right: 10px;     
+}
+
+nav li{
+    display:block;
+}
+
+nav li img{
+    width: 30px;
+    height: 30px;
+}
+
