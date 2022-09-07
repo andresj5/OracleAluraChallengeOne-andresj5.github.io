@@ -1,3 +1,14 @@
+body{
+    
+    background-image: url(imagenes/fondo_.jpg);
+}
+
+main {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
 nav{
     position: absolute;
     top: 0px;
@@ -13,4 +24,37 @@ nav li img{
     height: 30px;
 }
 
-/*prueba*/
+.texto-entrada{
+    margin-top: 24px;
+    margin-left: 35px;
+}
+.mensaje-salida {
+    position: relative;
+    margin-top: 45px;
+    margin-left: 120px;
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left:160px;
+}
+
+.encriptar{
+    color: black;
+    background-color: rgb(247, 216, 43);
+}
+.desencriptar{
+    color: black;
+    background-color: rgb(247, 216, 43);
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    background-color: rgb(247, 216, 43);
+}
+
