@@ -25,12 +25,12 @@ nav li img{
 }
 
 .texto-entrada{
-    margin-top: 24px;
-    margin-left: 35px;
+    margin-top: 130px;
+    margin-left: 120px;
 }
 .mensaje-salida {
     position: relative;
-    margin-top: 45px;
+    margin-top: 130px;
     margin-left: 120px;
 
 }
@@ -39,7 +39,7 @@ nav li img{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    margin-left:160px;
+    margin-left:250px;
 }
 
 .encriptar{
